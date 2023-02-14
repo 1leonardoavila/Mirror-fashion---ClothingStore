@@ -1,0 +1,77 @@
+h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: white;
+    background-image:	url(../img/fundo-rodape.png);
+    margin-top: 0px;
+}
+
+footer	{
+    background-image:	url(../img/fundo-rodape.png);
+    clear: both;
+    margin-top: 55px;
+}
+footer .container	{
+position:	relative;
+}
+.social a	{
+    /*	tamanho	da	imagem	*/
+    height: 32px;
+    width: 32px;
+    /*	image	replacement	*/
+    display:	block;
+    text-indent:	-9999px;		
+}
+.social a[href*="facebook.com"]	{
+    background-image:	url(../img/facebook.png);
+}
+.social a[href*="twitter.com"]	{
+    background-image:	url(../img/twitter.png);
+}
+.social a[href*="plus.google.com"]	{
+    background-image:	url(../img/googleplus.png);
+}
+#rodape{
+    color: #777;
+    margin: 30px 0;
+}
+#rodape img	{
+    margin-right: 30px;
+    vertical-align:	middle;
+    width: 94px;
+}
+.social li	{
+    float:	left;
+    margin-left: 25px;
+}
+.social	{
+position:	absolute;
+top: 12px;
+right: 5px;
+}
+.logo{
+    height: 50px;
+    width: 100px;
+    position: relative;
+    margin-left: 05px;
+    background-image: url(../img/logo-rodape.png);
+}
+.logo a {
+     /*	tamanho	da	imagem	*/
+     height: 50px;
+     width: 100px;
+     /*	image	replacement	*/
+     display:	block;
+     text-indent:	-9999px;	
+}
+ol, ul {
+    list-style: none;
+}
+fieldset{
+    margin-top: 55px;
+}
